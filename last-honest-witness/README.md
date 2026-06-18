@@ -1,6 +1,6 @@
 # The Last Honest Witness
 
-**Category:** Crypto / ZK
+**Category:** Crypto / ZK / Misc
 **Stack:** Solidity + Foundry/Anvil, snarkjs (Groth16, BN254), circomlibjs (Poseidon), eth-keys / coincurve
 **One-liner:** A single `claim()` call gated by four independent crypto sub-puzzles plus a 32-leaf Poseidon-Merkle Groth16 witness. The actual ZK is straightforward once you've factored the deployer's RSA modulus with Fermat (the primes are very close).
 

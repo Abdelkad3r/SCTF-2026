@@ -1,6 +1,6 @@
 # Chronostasis
 
-**Category:** Blockchain / DeFi
+**Category:** Blockchain / DeFi / Misc
 **Stack:** Foundry + Anvil, UniswapV2 fork, EIP-7540-style async vault, custom TWAP oracle
 **One-liner:** Pump a thin pool's TWAP, snapshot the vault redemption at the high, dump the pool, claim at the low — but only after you've spammed enough oracle updates to *evict the deploy-time observation from the ring buffer*. That last step is the entire challenge.
 
