@@ -1,0 +1,8 @@
+node_modules/
+package-lock.json
+input.json
+proof.json
+public.json
+calldata.txt
+out/
+cache/
